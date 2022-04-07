@@ -1,0 +1,59 @@
+.hero {
+  background-color: #191919;
+  padding-top: 0.9rem;
+  width: 100%;
+  
+  height: 14%;
+  margin: 0 auto;
+}
+
+.hero__banner {
+  width: 100%;
+  max-width: 1440px;
+  position: relative;
+  color: black;
+  margin:0 auto;
+
+}
+
+.hero__banner img {
+  width: 100%;
+  
+}
+
+.hero__tablet__img,
+.hero__desktop__img {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+
+
+  .hero__mobile__img,
+  .hero__desktop__img {
+    display: none;
+  }
+
+  .hero__tablet__img {
+    display: block;
+  }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+
+  .hero__mobile__img,
+  .hero__tablet__img {
+    display: none;
+  }
+
+  .hero__desktop__img {
+    display: block;
+  }
+
+  .hero__banner img {
+    width: 100%;
+    
+  }
+}

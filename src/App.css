@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Manrope';
+}
+
+.flex__center {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.h1__manrope,
+.h2__manrope,
+.h3__manrope,
+.h4__manrope,
+.h5__manrope,
+.h6__manrope,
+.overline__manrope,
+.subtitle__manrope,
+.heading__manrope,
+.body__text,
+.button__text {
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+
+  color: #FFF;
+  text-align: center;
+}
+
+.h1__manrope {
+  font-size: 56px;
+  line-height: 58px;
+  letter-spacing: 2px;
+}
+
+.h2__manrope {
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 1.42px;
+}
+
+.heading__manrope {
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 1.3px;
+}
+
+
+.h3__manrope {
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 1.15px;
+}
+
+.h4__manrope {
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 2px;
+}
+
+.h5__manrope {
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 1.7px;
+}
+
+.h6__manrope {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1.3px;
+}
+
+.overline__manrope {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 10px;
+  opacity: 0.5;
+}
+
+.subtitle__manrope {
+  font-size: 13px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+.button__text {
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  padding: 0.9rem 1.9rem;
+  border: 0px; 
+}
+
+.brown__button {
+  background-color: #D87D4A;
+}
+
+.body__text {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  opacity: 0.75;
+  text-transform: none;
+}

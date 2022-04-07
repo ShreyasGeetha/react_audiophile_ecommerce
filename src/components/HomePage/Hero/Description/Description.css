@@ -1,0 +1,125 @@
+.hero__banner__description {
+  position: absolute;
+  top: 0;
+  margin: 12.4rem 1.5rem 7rem 1.5rem;
+  background-color: transparent;
+  text-align: center;
+}
+
+.hero__banner__description div {
+  background-color: transparent;
+}
+
+.hero__title {
+  margin: 0.02rem;
+}
+
+.hero__name {
+  margin: 1rem 1.5rem 1.5rem 1.5rem;
+}
+
+.hero__description {
+  margin: 0 2rem;
+}
+
+.hero__button {
+  margin-top: 1.7rem;
+}
+
+@media screen and (min-width: 475px) {
+  .hero__banner__description {
+    margin: 15rem 2.5rem 7rem 2.5rem;
+  }
+
+  .hero__name {
+    margin: 2rem 1.5rem 1.5rem 1.5rem;
+  }
+
+  .hero__button {
+    margin-top: 2.7rem;
+  }
+}
+
+@media screen and (min-width: 575px) {
+  .hero__banner__description {
+    margin: 24rem 3.5rem 10rem 3.5rem;
+  }
+
+  .hero__name {
+    margin: 2rem 1.5rem 1.5rem 1.5rem;
+  }
+
+  .hero__button {
+    margin-top: 2.7rem;
+  }
+
+  .hero__description {
+    margin: 1.2rem 4rem;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+  .hero__banner__description {
+    margin: 13.5rem 11.19rem 10.4rem 11.19rem;
+
+  }
+
+  .hero__name {
+    margin: 1.5rem auto;
+  }
+
+  .hero__description {
+    margin: 1.2rem 1rem;
+  }
+
+  .heading__manrope {
+    font-size: 56px;
+    line-height: 58px;
+    letter-spacing: 2px;
+  }
+
+  .hero__banner__description {
+    inset: 0;
+  }
+}
+
+@media screen and (min-width: 1001px) {
+  .hero__banner__description {
+    margin: 20rem 16rem 10.4rem 16rem;
+
+  }
+
+  .hero__name {
+    margin: 1.5rem auto;
+  }
+
+  .hero__description {
+    margin: 1.2rem 4rem;
+  }
+
+  .heading__manrope {
+    font-size: 56px;
+    line-height: 58px;
+    letter-spacing: 2px;
+  }
+
+  .hero__banner__description {
+    inset: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero__banner__description {
+    width: 27%;
+    text-align: left;
+    margin-top: 14rem;
+  }
+
+  .hero__title,
+  .hero__name,
+  .hero__description {
+    text-align: left;
+    margin-left: 0px;
+  }
+}
