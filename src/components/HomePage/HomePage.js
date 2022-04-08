@@ -1,15 +1,14 @@
 import React from 'react'
 import Hero from './Hero/Hero'
 import './HomePage.css'
+import ProductDisplay from './ProductDisplay/ProductDisplay'
 
 const HomePage = () => {
   return (
     <div className='homepage'>
-      {/* background Image */}      
+      
       <Hero />
-      {/* header */}
-
-      {/* Product description */}
+      <ProductDisplay />
     </div>
   )
 }

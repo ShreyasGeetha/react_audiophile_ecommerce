@@ -1,0 +1,161 @@
+.productDisplay{
+  margin-top: 2.5rem;
+  margin-bottom: 7.5rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  border: 1px greenyellow solid;
+  text-align: center;
+  text-transform: uppercase;
+  flex-direction: column;  
+}
+
+/* 
+Width 
+94.89px
+Height 
+14px
+
+background: #000000;
+filter: blur(43.4925px);
+ */
+
+ .refl{
+   width: 94.89px;
+   height: 14px;
+   background-color: #000000;
+   filter: blur(25.4925px);  
+ }
+
+.one{
+  width: 100%;
+  height: 217px;
+  border: 1px red solid;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.product_list{
+  position: absolute;
+  flex-direction: column;
+  background-color: transparent;
+   left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  top:0px;
+  bottom: 22px;
+
+}
+
+.name{
+font-weight: 700;
+font-size: 15px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 1.07143px;
+text-transform: uppercase;
+background: transparent;
+color: #000000;
+margin-top: 2rem;
+}
+
+.action{
+  font-size: 13px;
+  line-height: 18px;
+  /* identical to box height */
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+
+  margin-top: 1rem;  
+  background-color: transparent;
+}
+
+.action span,
+.action svg{
+  background-color: transparent;
+
+  margin-right: 1rem;
+}
+
+
+.product_list img{
+  width: 79px;
+  height: 104px;  
+  border: 0;  
+  background-color:transparent;  
+}
+
+
+
+.bg_gray{
+  width: 100%;
+  height: 165px;
+  background-color: #F1F1F1;
+  position: absolute;
+  bottom: 0;
+}
+
+.productDisplay__heaphones,
+.productDisplay__speakers,
+.productDisplay__earphones{
+  width: 100%;
+  background-color: grey;
+  height: 100px;
+}
+
+.productDisplay__products--heaphones,
+.productDisplay__products--speakers,
+.productDisplay__products--earphones
+{
+  margin-top: 1rem;
+  border:1px red solid;
+  flex-direction: column;
+  position: relative;
+}
+
+.products__img{
+  object-fit: contain;
+  width: 100px;
+  height: 100px;
+  
+}
+
+.productDisplay__info{
+  position: absolute;
+}
+
+.productDisplay__background{
+  width: 100%;
+  height: 75%;
+  position: absolute;
+  bottom: 0;
+  z-index: 0;
+}
+
+.productDisplay__products{
+  border: 1px black solid;
+  flex-direction: column;
+  display: flex;  
+}
+
+@media screen and (min-width: 768px) {
+
+  .productDisplay__outer{
+    margin: 6rem 2.5rem;
+  }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+  .productDisplay__outer{
+    margin: 7.5rem 10.3rem 10.5rem 10.3rem;
+  }
+
+}
