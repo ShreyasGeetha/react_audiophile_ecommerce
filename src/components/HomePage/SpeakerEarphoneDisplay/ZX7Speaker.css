@@ -1,0 +1,63 @@
+.ZX7_Speaker{
+  margin: 1.5rem;     
+  position: relative;
+  border: 1px red solid;
+  /* width: 100px;
+  height: 600px; */
+}
+
+.ZX7_Speaker--image{
+  position: relative;
+  
+}
+
+.ZX7_Speaker--image img{
+  border-radius: .5rem;
+  width: 100%;
+  object-fit: contain;
+}
+
+.zx7__info{
+  position: absolute;
+
+}
+
+.zx7__info--title{
+  position: absolute;
+  inset: 0;
+  -webkit-background-clip: text;
+  top:6.3rem;
+  left: 1.5rem;
+
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.ZX7__speaker--content__button button{
+  position: absolute;
+  /* inset: 0; */
+  -webkit-background-clip: text;
+  border: 1px black solid;
+ 
+  top:10.8rem;
+  left: 1.6rem;
+
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  /* identical to box height */
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.ZX7_Speaker--image__tablet{
+  display: none;
+}
+

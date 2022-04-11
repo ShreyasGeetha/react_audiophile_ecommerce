@@ -34,13 +34,13 @@
 
 @media screen and (min-width: 768px) {
   .menu__svg {
-    max-width: 768px;
+    max-width: 689px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .menu__line {
-    max-width: 768px;
+    max-width: 689px;
     margin-left: auto;
     margin-right: auto;
   }

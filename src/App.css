@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Manrope';
 }
 
 .flex__center {
@@ -10,17 +9,8 @@
   align-content: center;
 }
 
-.h1__manrope,
-.h2__manrope,
-.h3__manrope,
-.h4__manrope,
-.h5__manrope,
-.h6__manrope,
-.overline__manrope,
-.subtitle__manrope,
-.heading__manrope,
-.body__text,
-.button__text {
+.text__font {
+  font-family: 'Manrope';
   font-weight: 700;
   font-style: normal;
   text-transform: uppercase;
@@ -96,6 +86,10 @@
 
 .brown__button {
   background-color: #D87D4A;
+}
+
+.black__button {
+  background-color: #000000;
 }
 
 .body__text {

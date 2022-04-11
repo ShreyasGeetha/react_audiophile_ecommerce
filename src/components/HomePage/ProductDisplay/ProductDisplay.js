@@ -9,7 +9,7 @@ import YX1_earphone_mobile from '../../../assets/YX1_earphone/mobile/YX1_earphon
 
 const ProductDisplay = () => {
   return (
-    <div className='productDisplay flex__center'>
+    <div className='productDisplay flex__center text__font'>
       
       <div className='productDisplay__products'>
         <div className='productDisplay__bg--gray'>
@@ -30,22 +30,22 @@ const ProductDisplay = () => {
         </div>
       </div>
 
-     <div className='productDisplay__products'>
-        <div className='productDisplay__bg--gray'>
-        </div>
-        <div className='productDisplay__list flex__center'>
-          
-          <img className='product__list--img__speaker' src={ZX9Speaker_Mobile} alt="xx99M1_headphones_mobileImage" />
-          <div className='productDisplay__reflection'>
+      <div className='productDisplay__products'>
+          <div className='productDisplay__bg--gray'>
+          </div>
+          <div className='productDisplay__list flex__center'>
+            
+            <img className='product__list--img__speaker' src={ZX9Speaker_Mobile} alt="xx99M1_headphones_mobileImage" />
+            <div className='productDisplay__reflection'>
 
-          </div>
-          <div className='productDisplay__name body__text'>speakers</div>
-          <div className='productDisplay__action body__text'>
-            <span>shop</span>
-            <svg width="8" height="12" xmlns="http://www.w3.org/2000/svg"><path d="M1.322 1l5 5-5 5" stroke="#D87D4A" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+            </div>
+            <div className='productDisplay__name body__text'>speakers</div>
+            <div className='productDisplay__action body__text'>
+              <span>shop</span>
+              <svg width="8" height="12" xmlns="http://www.w3.org/2000/svg"><path d="M1.322 1l5 5-5 5" stroke="#D87D4A" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+            </div>
           </div>
         </div>
-      </div>
 
 
        <div className='productDisplay__products'>
@@ -63,35 +63,7 @@ const ProductDisplay = () => {
             <svg width="8" height="12" xmlns="http://www.w3.org/2000/svg"><path d="M1.322 1l5 5-5 5" stroke="#D87D4A" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
           </div>
         </div>
-      </div>
-     
-      
-        
-        {/* <div className='productDisplay__products--speakers'>
-          <div>
-            <img className='products__img' src={xx99M1_mobile} alt="xx99M1_headphones_mobileImage" />
-          </div>
-          <div>Heaphones</div>
-          <div>
-            <span>shop</span>
-          </div>
-          <div className='productDisplay__background'>
-
-          </div>
-        </div>
-        <div className='productDisplay__products--earphones'>
-          <div>
-            <img className='products__img' src={xx99M1_mobile} alt="xx99M1_headphones_mobileImage" />
-          </div>
-          <div>Heaphones</div>
-          <div>
-            <span>shop</span>
-          </div>
-          <div className='productDisplay__background'>
-
-          </div>
-        </div> */}
-      
+       </div>  
     </div>
   )
 }

@@ -3,7 +3,7 @@ import './Description.css';
 
 const Description = () => {
   return (
-    <div className='hero__banner__description'>
+    <div className='hero__banner__description text__font'>
       <div className='overline__manrope hero__title'>
         NEW PRODUCT
       </div>
