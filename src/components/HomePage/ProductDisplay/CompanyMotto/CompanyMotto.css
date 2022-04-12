@@ -1,0 +1,113 @@
+.motto{
+  /* border: 1px red solid;   */
+  margin: 7.5rem 1.5rem;
+  color:black;
+}
+
+.motto__image img{
+  object-fit: contain;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.motto__text{
+  margin-top: 2.5rem;
+}
+
+.motto__text--heading{
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 1px;
+  /* border: 1px red solid;   */
+  text-align: center;
+}
+
+.motto__text--heading span{
+  color:#D87D4A;
+}
+
+.motto__text--description{
+  margin-top: 2rem;
+  text-transform: none;
+
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  /* text-align: center; */
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.bestGear__tablet,
+.bestGear__desktop{
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .motto{
+    margin: 6rem 2.5rem;
+  }
+
+  .bestGear__mobile,
+  .bestGear__desktop{
+    display: none;
+  }
+
+  .bestGear__tablet{
+    display: block;
+  }
+
+  .motto__text{
+    margin: 3.9rem 3.4rem 0;
+    /* border: 1px red solid; */
+  }
+
+  .motto__text--heading{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+    /* border: 1px red solid; */
+    letter-spacing: 1.42857px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .motto{
+    margin: 12.5rem auto;
+    max-width: 1110px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* grid-auto-flow: dense; */
+    direction: rtl;
+  }
+
+  .bestGear__mobile,
+  .bestGear__tablet{
+    display: none;
+  }
+
+  .bestGear__desktop{
+    display: block;
+  }
+
+  .motto__text{
+    /* border: 1px red solid; */
+    height:min-content;
+    /* margin: 0; */
+    margin-left: 0;
+    margin-right: 6.5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .motto__text--heading,
+  .motto__text--description{
+    text-align: left;
+  }
+
+}

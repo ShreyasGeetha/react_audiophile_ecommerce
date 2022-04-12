@@ -100,9 +100,10 @@
 @media screen and (min-width: 768px) {
   .ZX9__speaker{
     /* width: 100%; */
-    margin-left: 2.4rem;
-    margin-right: 2.4rem;
-    
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    /* border: 10px greenyellow solid; */
+    height: 720px;
   }
 
   .ZX9__speaker--img img{
@@ -111,12 +112,12 @@
     height: 14.83rem;
   }
 
-  .ZX9__speaker__info{
-    /* border: 1px red solid; */
+  .ZX9__speaker__info{    
     margin-top: 4rem;  
     margin-bottom: 4rem;
-    margin-left: 11rem;  
-    margin-right: 11rem;  
+    /* border: 1px red solid; */
+    margin-left: 14rem;  
+    margin-right: 14rem;  
   }
 
   .ZX9__speaker--content__title{
@@ -131,14 +132,11 @@
   .ZX9__speaker--content__description{
     margin-left: 0rem;
     margin-right: 0rem;
-    margin-bottom: 2.5rem;
-
-    /* text-align: center;     */
-    
+    margin-bottom: 2.5rem;        
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .ZX9__speaker{
     width:100%;
     max-width: 1110px;

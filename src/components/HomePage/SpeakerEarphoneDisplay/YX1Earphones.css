@@ -1,0 +1,134 @@
+.YX1Earphones{
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  /* border: 1px red solid; */
+}
+
+.YX1Earphones__img img{  
+  object-fit: contain;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.YX1Earphones__text,
+.YX1Earphones__text--content{
+  background-color: #F1F1F1;
+}
+
+.YX1Earphones__text{
+  border: 1px #F1F1F1 dashed;
+  min-height: 200px;
+  border-radius: 0.5rem;
+}
+
+.YX1Earphones__text--content{
+  flex-direction: column;
+  align-items: flex-start;  
+  margin-top:2.6rem;
+  margin-bottom:2.6rem;
+  margin-left: 1.5rem;
+}
+
+.YX1Earphones__text--content span{
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+}
+
+.YX1Earphones__text--content button{
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  /* identical to box height */
+  letter-spacing: 1px;
+  border: 1px black solid;
+
+}
+
+.YX1Earphones__text--content span,
+.YX1Earphones__text--content button{
+
+  color: #000000;
+  -webkit-background-clip: text;
+}
+
+.YX1Earphones__img{
+  margin-bottom: 1.5rem;
+  min-height: 200px;
+  border-radius: 0.7rem;
+}
+
+.YX1Earphones__img--tablet,
+.YX1Earphones__img--desktop{
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .YX1Earphones{
+    display: grid;   
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    grid-template-columns: 50% 50%;
+  }
+
+  .YX1Earphones__img{
+    margin: 0;
+    margin-right: 0.7rem;
+  }
+
+  .YX1Earphones__img,
+  .YX1Earphones__text{
+    min-width: 339px;
+  }
+
+  .YX1Earphones__img--tablet{
+    display: block;
+  }
+
+  .YX1Earphones__img--mobile,
+  .YX1Earphones__img--desktop{
+    display: none;
+  }
+
+  
+  .YX1Earphones__text--content{
+    max-width: fit-content;
+    /* border: 1px red solid; */
+    margin: 0;
+    margin-top: 6.5rem;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .YX1Earphones{
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .YX1Earphones__img--desktop{
+    display: block;
+  }
+
+  .YX1Earphones__img--tablet,
+  .YX1Earphones__img--mobile{
+    display: none;
+  }
+
+  .YX1Earphones__text--content{
+    margin-left: 6rem;
+  }
+
+  .YX1Earphones__img{
+    margin-right: 0.9rem;
+  }
+
+  .YX1Earphones__text{
+    margin-left: 0.9rem;
+  }
+}

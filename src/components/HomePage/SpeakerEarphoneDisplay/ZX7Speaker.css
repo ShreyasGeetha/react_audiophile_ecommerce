@@ -1,9 +1,7 @@
 .ZX7_Speaker{
   margin: 1.5rem;     
   position: relative;
-  border: 1px red solid;
-  /* width: 100px;
-  height: 600px; */
+  
 }
 
 .ZX7_Speaker--image{
@@ -35,6 +33,8 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #000000;
+
+  text-align: left;
 }
 
 .ZX7__speaker--content__button button{
@@ -57,7 +57,53 @@
   color: #000000;
 }
 
-.ZX7_Speaker--image__tablet{
+.ZX7_Speaker--image__tablet,
+.ZX7_Speaker--image__desktop{
   display: none;
 }
 
+@media screen and (min-width: 768px) {
+
+  .ZX7_Speaker{
+    margin: 2rem 2.5rem;
+    position: relative;
+    
+  }
+  .ZX7_Speaker--image__mobile,
+  .ZX7_Speaker--image__desktop{
+    display: none;
+  }
+
+  .ZX7_Speaker--image__tablet{
+    display: block;
+  }
+
+  .zx7__info--title,
+  .ZX7__speaker--content__button button{
+    margin-left: 3.8rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .ZX7_Speaker{
+    width:100%;
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .ZX7_Speaker--image__mobile,
+  .ZX7_Speaker--image__tablet{
+    display: none;
+  }
+
+  .ZX7_Speaker--image__desktop{
+    display: block;
+  }
+
+  .zx7__info--title,
+  .ZX7__speaker--content__button button{
+    margin-left: 6rem;
+    left: 0;
+  }
+}
