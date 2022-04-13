@@ -41,7 +41,7 @@
   flex-direction: column;
 }
 
-.logo{
+.logo__logoAndMenu svg{
   margin-top: 3.25rem;
   margin-bottom: 3rem;
 }
@@ -99,7 +99,7 @@
     margin-left: 2.5rem;
   }
 
-  .logo{
+  .logo__logoAndMenu svg{
     margin-top:3.75rem;
     margin-bottom: 2rem;
     margin-left: 0;
@@ -169,7 +169,7 @@
     /* border: 1px white solid; */
   }
 
-  .logo,
+  .logo__logoAndMenu svg,
   .footer__menu{
     margin-top: 4.9rem;    
     margin-bottom: 0;
@@ -187,6 +187,12 @@
 
   .footer__menu{
     width: 40%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .footer__menu{
+    width: 30%;
   }
 }
 

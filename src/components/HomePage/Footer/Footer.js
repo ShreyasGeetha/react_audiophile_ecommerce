@@ -12,7 +12,7 @@ const Footer = () => {
       <div className='brownHighlighter'></div>
       
       <div className='logo__logoAndMenu flex__center'>
-        <Logo className='logo' />
+        <Logo />
         <div className='footer__menu flex__center'>
           <div>home</div>
           <div className='footer__menu--headphones'>headphones</div>

@@ -1,0 +1,13 @@
+.categoryTitle{
+  position: absolute;
+  left: 0;
+  right: 0;    
+  bottom:2rem;
+  background-color: black;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 2px;
+}

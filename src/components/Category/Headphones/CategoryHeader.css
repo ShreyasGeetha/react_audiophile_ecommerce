@@ -1,0 +1,7 @@
+.CategoryHeader__background{
+  background-color: black;
+  border: 2px pink dashed;
+  height: 192px;
+  
+  position: relative;
+}
