@@ -10,11 +10,11 @@ const CompanyMotto = () => {
     <div className='motto text__font'>
       {/* for image */}
       <div className='motto__image'>
-        <img src={bestGear__mobile} alt="bestGear__mobile" className='bestGear__mobile' />
+        <img src='https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/BestGear/bestGear__mobile.jpg' alt="bestGear__mobile" className='bestGear__mobile' />
         
-        <img src={bestGear__tablet} alt="bestGear__tablet" className='bestGear__tablet' />
+        <img src='https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/BestGear/bestGear__tablet.jpg' alt="bestGear__tablet" className='bestGear__tablet' />
         
-        <img src={bestGear__desktop} alt="bestGear__desktop" className='bestGear__desktop'/>
+        <img src='https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/BestGear/bestGear__desktop.jpg' alt="bestGear__desktop" className='bestGear__desktop'/>
       </div>
 
       {/* Text of Motto */}

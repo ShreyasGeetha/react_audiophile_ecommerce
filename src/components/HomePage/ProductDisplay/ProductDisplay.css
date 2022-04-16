@@ -76,12 +76,20 @@ margin-top: 2rem;
 
   margin-top: 1rem;  
   background-color: transparent;
- 
+  cursor: pointer;
+}
+
+.productDisplay__action a{
+  text-decoration: none;  
+}
+
+.productDisplay__action a,
+.productDisplay__action span,
+.productDisplay__action a svg{  
+  background-color: transparent;
 }
 
 .productDisplay__action span{
-  background-color: transparent;
-
   margin-right: 1rem;
 }
 

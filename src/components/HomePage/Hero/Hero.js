@@ -11,9 +11,9 @@ const Hero = () => {
   return (
     <div className='hero'>              
       <div className='hero__banner'>  
-        <img src={mobileHero} alt="" className='hero__mobile__img' />
-        <img src={tabletHero} alt="" className='hero__tablet__img' />
-        <img src={desktopHero} alt="" className='hero__desktop__img' />
+        <img src='https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/mobileHero.jpg' alt="" className='hero__mobile__img' />
+        <img src='https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/tabletHero.jpg' alt="" className='hero__tablet__img' />
+        <img src='https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/desktopHero.jpg' alt="" className='hero__desktop__img' />
         <Header /> 
         <Description />
       

@@ -183,4 +183,9 @@
     margin:0rem;
     margin-bottom: 2.5rem;
   }
+
+  .ZX9__speaker--content{
+    position: absolute;
+    bottom: 0;
+  }
 }

@@ -1,9 +1,6 @@
 import React from 'react'
 import '../../../App.css'
 import './YX1Earphones.css'
-import yx1__earphone from '../../../assets/home/mobile/yx1__earphone.jpg'
-import yx1__earphones__tablet from '../../../assets/home/tablet/yx1__earphones__tablet.jpg'
-import yx1__earphones__desktop from '../../../assets/home/desktop/yx1__earphones__desktop.jpg'
 
 
 const YX1Earphones = () => {
@@ -12,11 +9,11 @@ const YX1Earphones = () => {
       
       {/* div for the image */}
       <div className='YX1Earphones__img'>
-        <img src={yx1__earphone} alt="yx1__earphone-mobile" className='YX1Earphones__img--mobile' />
+        <img src='https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/YX1_Earphone/yx1__earphone_showcase_mobile.jpg' alt="yx1 earphone mobile" className='YX1Earphones__img--mobile' />
 
-        <img src={yx1__earphones__tablet} alt="yx1__earphones-tablet" className='YX1Earphones__img--tablet' />
+        <img src='https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/YX1_Earphone/yx1__earphones_showcase___tablet.jpg' alt="yx1__earphones-tablet" className='YX1Earphones__img--tablet' />
         
-        <img src={yx1__earphones__desktop} alt="yx1__earphones-desktop" className='YX1Earphones__img--desktop' />
+        <img src='https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/YX1_Earphone/yx1__earphones__showcase__desktop.jpg' alt="yx1__earphones-desktop" className='YX1Earphones__img--desktop' />
 
 
       </div>

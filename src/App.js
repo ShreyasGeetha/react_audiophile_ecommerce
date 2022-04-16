@@ -1,3 +1,4 @@
+import { Routes, Route } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 import HomePage from './components/HomePage/HomePage';
@@ -5,12 +6,12 @@ import Headphones from './components/Category/Headphones/Headphones';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">        
-      </header>
-      {/* <HomePage /> */}
-      <Headphones />
-    </div>
+    <>
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='headphones' element={ <Headphones />}/>
+      </Routes>
+    </>
   );
 }
 
