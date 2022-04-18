@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../../../Button';
 import './Description.css';
 
 const Description = () => {
@@ -15,7 +16,7 @@ HeadphoneS
         Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.
       </div>
       <div className='hero__button'>
-        <button className='button__text brown__button'>see product</button>
+        <Button color="brown__button"/>
       </div>
   </div>
   )

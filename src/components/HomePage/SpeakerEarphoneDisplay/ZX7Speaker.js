@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../../Button';
 import './ZX7Speaker.css';
 
 const ZX7Speaker = () => {
@@ -20,7 +21,7 @@ const ZX7Speaker = () => {
             ZX7 SPEAKER
         </div>
         <div className='ZX7__speaker--content__button'>
-            <button className='button__text'>see product</button>
+            <Button color="brown__button"/>
         </div>      
     </div>
     </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../../App.css'
+import Button from '../../Button'
 import './YX1Earphones.css'
 
 
@@ -22,25 +23,10 @@ const YX1Earphones = () => {
       <div className='YX1Earphones__text'>
         <div className='YX1Earphones__text--content flex__center'>
           <span>YX1 EARPHONES</span>
-          <button className='button__text '>see product</button>
+          <Button color="brown__button"/>
         </div>
 
-      </div>
-      {/* <div className='YX1Earphones__content'>
-        
-        <div className='YX1Earphones__content--img'>
-          <img src={yx1__earphone} alt="yx1__earphone-mobile" className='yx1__earphone--image__mobile' />
-          <img src={yx1__earphones__tablet} alt="yx1__earphones-tablet" className='yx1__earphones__tablet--image__tablet' />
-          
-        </div>
-
-        <div className='YX1Earphones__content--details'>
-          <div>
-            <span>YX1 EARPHONES</span>
-              <button className='button__text '>see product</button>
-          </div>
-        </div>
-      </div> */}
+      </div>    
     </div>
   )
 }

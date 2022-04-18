@@ -4,6 +4,7 @@ import '../../../App.css';
 
 import ZX9Speaker_Mobile_HomePage from '../../../assets/ZX9Speaker/mobile/ZX9Speaker_Mobile_HomePage.png'
 import zx9__Speaker__desktop from '../../../assets/ZX9Speaker/desktop/zx9__Speaker__desktop.png'
+import Button from '../../Button';
 
 
 const ZX9Speaker = () => {
@@ -24,7 +25,7 @@ const ZX9Speaker = () => {
             Upgrade to premium speakers that are phenomenally built to deliver truly remarkable sound.
           </div>
           <div className='ZX9__speaker--content__button'>
-            <button className='button__text black__button'>see product</button>
+            <Button color="black__button"/>
           </div>
         </div>
         
