@@ -1,6 +1,5 @@
 import React from 'react'
 import './CategoryTitle.css'
-import '../../../App.css'
 
 const CategoryTitle = ({ title }) => {
   return (

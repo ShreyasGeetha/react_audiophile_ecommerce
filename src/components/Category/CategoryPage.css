@@ -1,0 +1,134 @@
+.products{
+  margin-top: 4rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  /* border: 1px red solid; */
+}
+
+.products__category{
+  margin-bottom: 7.5rem;
+}
+
+.products__category--img img{
+  width: 100%;
+  height: 352px;
+  /* object-fit: contain; */
+}
+
+.products__category--description{
+  flex-direction: column;
+  margin-top: 2rem;
+  color:black;
+}
+
+.products__category--description__description{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.products__category--name {
+  /* text-align: left; */
+  /* color: aquamarine; */
+}
+
+.products__category--img__tablet{
+  display: none;
+}
+
+@media screen and (min-width:550px){
+  
+  .products{
+    margin-top: 7.5rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
+  .products__category--name{
+    font-size: 40px;
+    line-height: 44px;   
+    letter-spacing: 1.42857px;
+  }
+
+  .products__category--img__mobileDesktop{
+    display: none;
+  }
+
+  .products__category--img__tablet{
+    display: block;
+  }
+
+  .products__category--description{
+    margin: 3.25rem 5rem 0 5rem;    
+  }
+}
+
+@media screen and (min-width:768px){
+  .products{
+    max-width: 689px;
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+  }  
+}
+
+@media screen and (min-width: 850px) {
+  .products{
+    max-width: 768px;    
+  }  
+}
+
+@media screen and (min-width:1200px){
+
+  .products{
+    max-width: 1110px;
+    /* border: 1px red solid; */
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+  }  
+
+  .products__category{
+    display: grid;
+    grid-template-columns: 50% 50%;    
+  }
+
+  .products__category--description,
+  .products__category--description__description{    
+    align-content:flex-start;
+    align-items:flex-start;
+    text-align: left;
+  }
+
+  .products__category--img img{
+    width: 100%;
+    height: 560px;
+    /* object-fit: contain; */
+  }
+
+  .products__category--description{
+    margin-right: 0rem;
+    margin-left: 7.8rem;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .products__category--img__mobileDesktop{
+    display: block;
+  }
+
+  .products__category--img__tablet{
+    display: none;
+  }  
+
+  .products__category:nth-child(2){
+    direction: rtl;    
+  }
+
+  .products__category:nth-child(2) > .products__category--description{
+    margin: auto 7.8rem auto 0rem;
+    align-items: flex-end;
+    align-content: flex-end;
+  }
+
+}

@@ -99,6 +99,18 @@
   font-weight: 500;
   font-size: 15px;
   line-height: 25px;
-  opacity: 0.75;
+  opacity: 0.5;
   text-transform: none;
+}
+
+.text__gold{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+
+  color: #D87D4A;
+
+  margin-bottom: 1.5rem;
 }

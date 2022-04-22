@@ -1,0 +1,13 @@
+.CategoryHeader__background{
+  background-color: #191919;
+  /* border: 20px pink dashed; */
+  height: 192px;  
+  position: relative;
+}
+
+.CategoryHeader_header{
+  background-color: #191919;
+  width: 100%;
+  height: 2rem;
+  /* margin-bottom: 20px; */
+}

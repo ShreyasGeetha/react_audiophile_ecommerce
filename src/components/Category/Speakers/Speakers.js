@@ -1,17 +1,16 @@
 import React from 'react'
-import './Headphones.css'
-import CategoryHeader from '../CategoryHeader'
-import ListHeadphones from './ListHeadphones/ListHeadphones'
 import CategoryCommonComponents from '../CategoryCommonComponents'
+import CategoryHeader from '../CategoryHeader'
+import ListSpeaker from './ListSpeaker'
 
-const Headphones = () => {
+const Speakers = () => {
   return (
     <div className='headphones'>
       <CategoryHeader category='headphones'/>
-      <ListHeadphones />
+      <ListSpeaker />
       <CategoryCommonComponents />
     </div>
   )
 }
 
-export default Headphones
+export default Speakers

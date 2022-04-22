@@ -98,9 +98,9 @@
     },
     "category": "headphones",
     "categoryImage": {
-      "mobile": "./assets/product-xx59-headphones/mobile/image-category-page-preview.jpg",
-      "tablet": "./assets/product-xx59-headphones/tablet/image-category-page-preview.jpg",
-      "desktop": "./assets/product-xx59-headphones/desktop/image-category-page-preview.jpg"
+      "mobile": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/XX59/xx59_category_mobile.jpg",
+      "tablet": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/XX59/xx59_category_tablet.jpg",
+      "desktop": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/XX59/xx59_category_desktop.jpg"
     },
     "new": false,
     "price": 899,
@@ -182,9 +182,9 @@
     },
     "category": "headphones",
     "categoryImage": {
-      "mobile": "./assets/product-xx99-mark-one-headphones/mobile/image-category-page-preview.jpg",
-      "tablet": "./assets/product-xx99-mark-one-headphones/tablet/image-category-page-preview.jpg",
-      "desktop": "./assets/product-xx99-mark-one-headphones/desktop/image-category-page-preview.jpg"
+      "mobile": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/XX91M1/category/xx92m1_category_mobile.jpg",
+      "tablet": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/XX91M1/category/xx92m1_category_tablet.jpg",
+      "desktop": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/XX91M1/category/xx92m1_category_desktop.jpg"
     },
     "new": false,
     "price": 1750,
@@ -266,9 +266,9 @@
     },
     "category": "headphones",
     "categoryImage": {
-      "mobile": "./assets/product-xx99-mark-two-headphones/mobile/image-category-page-preview.jpg",
-      "tablet": "./assets/product-xx99-mark-two-headphones/tablet/image-category-page-preview.jpg",
-      "desktop": "./assets/product-xx99-mark-two-headphones/desktop/image-category-page-preview.jpg"
+      "mobile": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/XX91M2/headphone-category-Mobile.jpg",
+      "tablet": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/XX91M2/headphone-category-tablet.jpg",
+      "desktop": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/XX91M2/headphone-category-desktop.jpg"
     },
     "new": true,
     "price": 2999,
@@ -354,9 +354,9 @@
     },
     "category": "speakers",
     "categoryImage": {
-      "mobile": "./assets/product-zx7-speaker/mobile/image-category-page-preview.jpg",
-      "tablet": "./assets/product-zx7-speaker/tablet/image-category-page-preview.jpg",
-      "desktop": "./assets/product-zx7-speaker/desktop/image-category-page-preview.jpg"
+      "mobile": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/ZX7Speaker/category/zx7_category_mobile.jpg",
+      "tablet": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/ZX7Speaker/category/zx7_category_tablet.jpg",
+      "desktop": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/ZX7Speaker/category/zx7_category_desktop.jpg"
     },
     "new": false,
     "price": 3500,
@@ -442,9 +442,9 @@
     },
     "category": "speakers",
     "categoryImage": {
-      "mobile": "./assets/product-zx9-speaker/mobile/image-category-page-preview.jpg",
-      "tablet": "./assets/product-zx9-speaker/tablet/image-category-page-preview.jpg",
-      "desktop": "./assets/product-zx9-speaker/desktop/image-category-page-preview.jpg"
+      "mobile": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/ZX9Speaker/category/zx9_category_mobile.jpg",
+      "tablet": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/ZX9Speaker/category/zx9_category_tablet.jpg",
+      "desktop": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/ZX9Speaker/category/zx9_category_desktop.jpg"
     },
     "new": true,
     "price": 4500,
