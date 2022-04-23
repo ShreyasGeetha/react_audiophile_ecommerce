@@ -1,5 +1,5 @@
 .categoryTitle{
-  position: absolute;
+  /* position: absolute; */
   left: 0;
   right: 0;    
   bottom:2rem;
@@ -10,4 +10,5 @@
   line-height: 38px;
   text-align: center;
   letter-spacing: 2px;
+  padding: 2rem 0rem;
 }

@@ -8,8 +8,7 @@ const Headphones = () => {
   return (
     <div className='headphones'>
       <CategoryHeader category='headphones'/>
-      <ListHeadphones />
-      <CategoryCommonComponents />
+      <ListHeadphones />      
     </div>
   )
 }

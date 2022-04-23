@@ -2,6 +2,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchHeadphones } from '../../../../redux';
+import CategoryCommonComponents from '../../CategoryCommonComponents';
 import CategoryPage from '../../CategoryPage';
 import './ListHeadphones.css'
 
@@ -18,7 +19,10 @@ const ListHeadphones = () => {
     
     <div className=''>
       {!loading && 
-        <CategoryPage products={headphones} product="headphones" />
+        <CategoryPage products={headphones} product="headphones" />        
+      }
+      {!loading && 
+        <CategoryCommonComponents />
       }
     </div>
   )

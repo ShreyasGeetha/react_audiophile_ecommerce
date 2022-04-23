@@ -114,3 +114,11 @@
 
   margin-bottom: 1.5rem;
 }
+
+a {
+  background-color: transparent;
+}
+
+svg{
+  background-color: transparent;
+}

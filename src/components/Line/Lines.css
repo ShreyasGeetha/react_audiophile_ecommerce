@@ -1,0 +1,7 @@
+.menu__line {
+  /* position: absolute; */
+  width: 100%;
+  height: 1px;
+  background-color: #FFF;
+  opacity: 0.1;
+}

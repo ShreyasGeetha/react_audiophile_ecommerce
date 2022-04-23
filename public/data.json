@@ -10,9 +10,9 @@
     },
     "category": "earphones",
     "categoryImage": {
-      "mobile": "./assets/product-yx1-earphones/mobile/image-category-page-preview.jpg",
-      "tablet": "./assets/product-yx1-earphones/tablet/image-category-page-preview.jpg",
-      "desktop": "./assets/product-yx1-earphones/desktop/image-category-page-preview.jpg"
+      "mobile": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/YX1_Earphone/category/yx1_category_mobile.jpg",
+      "tablet": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/YX1_Earphone/category/yx1_category_tablet.jpg",
+      "desktop": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/YX1_Earphone/category/yx1_category_desktop.jpg"
     },
     "new": true,
     "price": 599,
@@ -92,9 +92,9 @@
     "slug": "xx59-headphones",
     "name": "XX59 Headphones",
     "image": {
-      "mobile": "./assets/product-xx59-headphones/mobile/image-product.jpg",
-      "tablet": "./assets/product-xx59-headphones/tablet/image-product.jpg",
-      "desktop": "./assets/product-xx59-headphones/desktop/image-product.jpg"
+      "mobile": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/XX59/productImage/image-product_mobile.jpg",
+      "tablet": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/XX59/productImage/image-product_tablet.jpg",
+      "desktop": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/XX59/productImage/image-product_desktop.jpg"
     },
     "category": "headphones",
     "categoryImage": {
@@ -176,9 +176,9 @@
     "slug": "xx99-mark-one-headphones",
     "name": "XX99 Mark I Headphones",
     "image": {
-      "mobile": "./assets/product-xx99-mark-one-headphones/mobile/image-product.jpg",
-      "tablet": "./assets/product-xx99-mark-one-headphones/tablet/image-product.jpg",
-      "desktop": "./assets/product-xx99-mark-one-headphones/desktop/image-product.jpg"
+      "mobile": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/XX91M1/productImage/image-product_mobile.jpg",
+      "tablet": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/XX91M1/productImage/image-product_tablet.jpg",
+      "desktop": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/XX91M1/productImage/image-product_desktop.jpg"
     },
     "category": "headphones",
     "categoryImage": {
@@ -260,9 +260,9 @@
     "slug": "xx99-mark-two-headphones",
     "name": "XX99 Mark II Headphones",
     "image": {
-      "mobile": "./assets/product-xx99-mark-two-headphones/mobile/image-product.jpg",
-      "tablet": "./assets/product-xx99-mark-two-headphones/tablet/image-product.jpg",
-      "desktop": "./assets/product-xx99-mark-two-headphones/desktop/image-product.jpg"
+      "mobile": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/XX91M2/productImage/mobile_image-product.jpg",
+      "tablet": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/XX91M2/productImage/image-product.jpg",
+      "desktop": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/XX91M2/productImage/desktop_image-product.jpg"
     },
     "category": "headphones",
     "categoryImage": {

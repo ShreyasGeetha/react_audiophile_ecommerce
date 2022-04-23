@@ -4,6 +4,7 @@ import Button from '../Button'
 import Description from '../Description'
 import Heading from '../Heading'
 import Image from '../Image'
+import { Link } from 'react-router-dom'
 
 const CategoryPage = ({products, product}) => {  
   return (
@@ -43,9 +44,11 @@ const CategoryPage = ({products, product}) => {
                 </div>
                 
                 {/* Button */}
-                <div>
-                  <Button color='brown__button' />
-                </div>
+                <Link to={`${headphone.id}`}>
+                  <div>
+                    <Button color='brown__button' />
+                  </div>
+                </Link>
 
               </div>
 

@@ -28,9 +28,26 @@ export const fetchHeadphones = () => {
     dispatch(fetchHeadphonesRequest())
     axios.get('/data.json')
       .then(response => {
-        const users = response.data
-        // console.log(users)
-        dispatch(fetchHeadphonesSuccess(users))      
+        const headphones = response.data
+        // console.log(headphones)
+        dispatch(fetchHeadphonesSuccess(headphones))      
+      })
+      .catch(error => {
+        const errorMsg = error.message        
+        dispatch(fetchHeadphonesFailure(errorMsg)) 
+    })
+  }
+}
+
+export const fetchHeadphone = ({headphoneId}) => {
+  // we can do async api calls here
+  return (dispatch) => {
+    dispatch(fetchHeadphonesRequest())
+    axios.get('/data.json')
+      .then(response => {
+        const headphone = response.data.filter(value => value.id == headphoneId)
+        console.log("we are printing this", headphone)
+        dispatch(fetchHeadphonesSuccess(headphone))      
       })
       .catch(error => {
         const errorMsg = error.message        
