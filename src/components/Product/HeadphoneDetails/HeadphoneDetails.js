@@ -25,7 +25,7 @@ const HeadphoneDetails = () => {
       {
         !loading && headphones.map((headphone) => (
           <div>
-            
+            Individual headphone
           </div>
         ))
       }
