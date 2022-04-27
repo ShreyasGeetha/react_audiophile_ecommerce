@@ -1,0 +1,22 @@
+.product__description,
+.product__description--left{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.product__description{
+  text-align: center;
+}
+
+.product__description--left{
+  text-align: left;
+}
+
+@media screen and (min-width:1200px){
+  .product__description,
+  .product__description--left{
+    align-content:flex-start;
+    align-items:flex-start;
+    text-align: left;
+  }
+}

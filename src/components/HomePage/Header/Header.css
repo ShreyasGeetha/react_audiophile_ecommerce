@@ -1,6 +1,7 @@
 .menu,
 .menu__relative,
 .menu__svg,
+.menu__relative--menu__svg,
 .menu__svg svg,
 .menu__desktop,
 .menu__desktop span {
@@ -22,7 +23,8 @@
   margin:0;
 }
 
-.menu__svg {
+.menu__svg,
+.menu__relative--menu__svg {
   margin: 0.9rem 1.5rem 2rem 1.5rem;
   justify-content: space-between;  
 }
@@ -36,14 +38,16 @@
 }
 
 @media screen and (min-width: 768px) {
-  .menu__svg {
+  .menu__svg,
+  .menu__relative--menu__svg {
     max-width: 768px;
     margin-left: 2.5rem;
     margin-right: 2.5rem;    
     justify-content: flex-start;
   }
 
-  .menu__svg a{
+  .menu__svg a,
+  .menu__relative--menu__svg a{
     /* background-color: antiquewhite; */
     margin-right: auto;
   }
@@ -60,13 +64,21 @@
   }
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 850px) {  
+  .menu__relative,
+  .menu__line,
   .menu__svg,
-  .menu__relative {
-    max-width: 768px;
+  .menu__relative--menu__svg {
+    max-width: 1110px;
     margin-left: auto;
     margin-right: auto;
   } 
+
+  .menu__svg{
+    max-width: 768px;
+    border:1px pink solid;    
+  }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -75,6 +87,7 @@
   }
 
   .menu__svg,
+  .menu__relative--menu__svg,
   .menu__relative {
     max-width: 1110px;
     margin-left: auto;

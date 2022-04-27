@@ -1,10 +1,11 @@
 import React from 'react'
 import './CategoryPage.css'
 import Button from '../Button'
-import Description from '../Description'
-import Heading from '../Heading'
+import ProductName from '../ProductName/ProductName'
 import Image from '../Image'
 import { Link } from 'react-router-dom'
+import NewProductText from '../NewProductText'
+import ProductDescription from '../ProductDescription/ProductDesctiption'
 
 const CategoryPage = ({products, product}) => {  
   return (
@@ -28,20 +29,13 @@ const CategoryPage = ({products, product}) => {
               {/* complete headphone description */}
               <div className='products__category--description flex__center text__font'>
                 
-                {headphone.new &&
-                  <div className='text__gold'>
-                    New Product
-                  </div>}
+                <NewProductText isNew={headphone.new} />
                 
                 {/* headphone title/name */}
-                <div className=' h4__manrope products__category--name'>
-                  <Heading heading={ headphone.name }/>
-                </div>
+                <ProductName name={headphone.name} />
                 
                 {/* headphone description */}
-                <div className='products__category--description__description'>
-                  <Description description={ headphone.description}/>
-                </div>
+                <ProductDescription description={ headphone.description} />
                 
                 {/* Button */}
                 <Link to={`${headphone.id}`}>

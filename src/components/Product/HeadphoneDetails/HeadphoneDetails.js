@@ -1,12 +1,13 @@
 import React, { useEffect } from 'react'
-import './ProductDetails.css';
 import { useDispatch, useSelector } from 'react-redux'
 import { useParams } from 'react-router-dom'
 import { fetchHeadphone } from '../../../redux';
-import Header from '../../HomePage/Header/Header';
 import RelativeHeader from '../../RelativeHeader/RelativeHeader';
+import ProductDetails from '../ProductDetails/ProductDetails';
+import ProductFeature from '../ProductFeature/ProductFeature';
 
-const HeadphoneDetails = () => {
+
+const HeadphoneDetails = () => {  
 
   const { loading, headphones, error} = useSelector(state => state.headphone)
   const dispatch = useDispatch();
@@ -18,19 +19,34 @@ const HeadphoneDetails = () => {
 
   const { headphoneId } = useParams()
   return (
-    <div className='product'>
+    <div className='text__font'>      
       <RelativeHeader />
-      
-      {/* <Header /> */}
-      {
-        !loading && headphones.map((headphone) => (
+
+      <ProductDetails loading={loading} headphones={headphones} />
+
+      <div>
+        {/* product features 
+        desktop - this becomes grid, else flex*/}
+        console.log({headphones.features})
+        <ProductFeature loading={loading} headphones={ headphones }/>
+        {/* product in the box 
+          mobile - flex 
+          tablet - grid*/}
+        <div>
           <div>
-            Individual headphone
+
           </div>
-        ))
-      }
+          {/* all aligned left */}
+          <div>
+
+          </div>
+        </div>
+      </div>
+      
     </div>
   )
 }
 
 export default HeadphoneDetails
+
+

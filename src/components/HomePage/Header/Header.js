@@ -10,13 +10,15 @@ import Line from '../../Line/Line'
 const Header = ({relativeMenu}) => {
   const [relative, setRelative] = useState(relativeMenu)
   const [menu, setMenu] = useState('menu')
+  const [menusvg, setMenusvg] = useState('menu__svg')
   useEffect(() => {
     setMenu(relative ? 'menu__relative' : 'menu')
+    setMenusvg(relative ? 'menu__relative--menu__svg' : 'menu__svg')
   },[])
 
   return (
       <div className={menu}>            
-        <div className='menu__svg flex__center'>          
+        <div className={`${menusvg} flex__center`}>          
           <HamburgerMenu />
           <Logo id='alignLeft'/>
           <DesktopMenu />

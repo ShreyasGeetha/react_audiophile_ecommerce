@@ -1,0 +1,8 @@
+@media screen and (min-width:550px){
+
+  .product__name{
+    font-size: 40px;
+    line-height: 44px;   
+    letter-spacing: 1.42857px;
+  }
+}
