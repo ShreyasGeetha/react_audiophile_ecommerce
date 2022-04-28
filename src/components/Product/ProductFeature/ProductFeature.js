@@ -11,6 +11,7 @@ const ProductFeature = ({loading, headphones}) => {
               features
             </div>
 
+            {/* headphone features */}
             <div className='product__feature--text body__text'>            
               {headphone.features}
             </div>
