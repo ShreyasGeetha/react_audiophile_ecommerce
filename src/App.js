@@ -16,11 +16,12 @@ function App() {
         <Route path='/' element={<HomePage />} />
         <Route exact path='headphones' element={<Headphones />} />
         <Route path="headphones/:headphoneId" element={<HeadphoneDetails />}></Route>
+
         {/* </Route>  */}
         <Route path='speakers' element={<Speakers />} />
-        <Route path="speakers/:speakerId" element={<SpeakerDetails />}></Route>          
-        <Route path='earphones' element={<Earphones />} />        
-        <Route path="earphones/:earphoneId" element={<EarphoneDetails />}></Route>          
+        <Route path="speakers/:speakerId" element={<SpeakerDetails />}></Route>
+        <Route path='earphones' element={<Earphones />} />
+        <Route path="earphones/:earphoneId" element={<EarphoneDetails />}></Route>
       </Routes>
     </>
   );
