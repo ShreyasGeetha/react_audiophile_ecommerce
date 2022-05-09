@@ -1,16 +1,11 @@
-.product__feature{
-  color: black;
-  text-align: left;
-}
 
-.product__feature{
-  font-size: 24px;
-  line-height: 36px;
-  letter-spacing: 0.857143px;
-  margin-bottom: 1.5rem;
-}
 
 .product__feature--text{
   text-transform: none;
   white-space: pre-wrap;
+}
+
+@media screen and (min-width:768px){
+
+  
 }

@@ -31,4 +31,4 @@ const headphoneReducer = (state = initialState, action) => {
   }
 }
 
-export default headphoneReducer
+export default headphoneReducer;

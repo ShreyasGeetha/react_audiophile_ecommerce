@@ -19,7 +19,7 @@ const ProductDetails = ({loading, headphones}) => {
       {
         !loading && headphones.map((headphone) => (
           //flex for mobile, grid for tablet and desktop
-          <div className='product__details--description'>
+          <div key={headphone.id} className='product__details--description'>
             
             {/* image for mobile and desktop*/}            
             <div className='product__details--img'>

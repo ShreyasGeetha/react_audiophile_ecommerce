@@ -5,6 +5,7 @@ import { fetchHeadphone } from '../../../redux';
 import RelativeHeader from '../../RelativeHeader/RelativeHeader';
 import ProductDetails from '../ProductDetails/ProductDetails';
 import ProductFeature from '../ProductFeature/ProductFeature';
+import ProductIncludes from '../ProductIncludes/ProductIncludes';
 
 
 const HeadphoneDetails = () => {  
@@ -14,7 +15,7 @@ const HeadphoneDetails = () => {
 
   useEffect(() => {
     dispatch(fetchHeadphone({ headphoneId }))
-    console.log('what we get is', headphones)
+    // console.log('what we get is', headphones)
   },[])
 
   const { headphoneId } = useParams()
@@ -27,20 +28,12 @@ const HeadphoneDetails = () => {
       <div>
         {/* product features 
         desktop - this becomes grid, else flex*/}
-        console.log({headphones.features})
+        {/* console.log({headphones.features}) */}
         <ProductFeature loading={loading} headphones={ headphones }/>
         {/* product in the box 
           mobile - flex 
           tablet - grid*/}
-        <div>
-          <div>
-
-          </div>
-          {/* all aligned left */}
-          <div>
-
-          </div>
-        </div>
+        <ProductIncludes loading={loading} headphones={ headphones }/>
       </div>
       
     </div>
