@@ -1,5 +1,5 @@
 .productIncludes{
-  margin: 5.5rem 1.5rem;
+  margin: 5.5rem 0rem;
   text-align: left;
   color: black;  
   flex-direction: column;
@@ -32,10 +32,6 @@
 }
 
 @media screen and (min-width:768px){
-  .productIncludes{
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-  }
 
   .productIncludes{
     flex-direction: row;
@@ -49,4 +45,22 @@
  .productIncludes__items{
    margin-right: 11.25rem;
  }
+}
+
+@media screen and (min-width:1200px){
+
+  .productIncludes{
+    margin-top: 0;
+    flex-direction: column;
+    margin-left: 7.8rem;
+  }
+
+  .productIncludes{
+   display: block;
+  }
+
+  .product__heading{
+    margin-bottom: 2rem;
+  }
+
 }

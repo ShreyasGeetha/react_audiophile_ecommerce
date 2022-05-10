@@ -1,0 +1,8 @@
+@media screen and (min-width:1200px){
+
+  .productFeatureAndIncludes{
+    display: grid;
+    grid-template-columns: 57% 50%;
+  }
+}
+

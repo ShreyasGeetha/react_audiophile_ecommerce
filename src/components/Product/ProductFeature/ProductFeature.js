@@ -6,7 +6,7 @@ const ProductFeature = ({loading, headphones}) => {
     <>
       {!loading && 
         headphones.map((headphone) => (
-          <div key={headphone.id} className='product__margin'>
+          <div key={headphone.id} className=''>
             <div className='product__heading'>
               features
             </div>
