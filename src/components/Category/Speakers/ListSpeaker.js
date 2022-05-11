@@ -1,21 +1,21 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchSpeakers } from '../../../redux';
+import { fetchProducts } from '../../../redux';
 import CategoryPage from '../CategoryPage';
 
-const ListSpeaker = () => {
-  const {loading, speakers, error} = useSelector(state => state.speaker)
+const ListSpeaker = ({product}) => {
+  const {loading, products, error} = useSelector(state => state.product)
   const dispatch = useDispatch()
   
   useEffect(async () => {
-    dispatch(fetchSpeakers())
+    dispatch(fetchProducts(product))
   },[]);
 
   return (
     
     <div className=''>
       {!loading && 
-        <CategoryPage products={speakers} product="speakers" />
+        <CategoryPage products={products} product={product} />
       }
     </div>
   )

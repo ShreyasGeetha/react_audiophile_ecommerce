@@ -6,8 +6,8 @@ import ListSpeaker from './ListSpeaker'
 const Speakers = () => {
   return (
     <div className='headphones'>
-      <CategoryHeader category='headphones'/>
-      <ListSpeaker />
+      <CategoryHeader category="speakers"/>
+      <ListSpeaker product="speakers"/>
       <CategoryCommonComponents />
     </div>
   )

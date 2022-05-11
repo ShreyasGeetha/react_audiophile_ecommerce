@@ -5,10 +5,12 @@ import ListHeadphones from './ListHeadphones/ListHeadphones'
 import CategoryCommonComponents from '../CategoryCommonComponents'
 
 const Headphones = () => {
+
+
   return (
     <div className='headphones'>
       <CategoryHeader category='headphones'/>
-      <ListHeadphones />      
+      <ListHeadphones product="headphones"/>      
     </div>
   )
 }

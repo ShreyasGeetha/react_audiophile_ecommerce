@@ -1,31 +1,32 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchHeadphones } from '../../../../redux';
+import { fetchProducts } from '../../../../redux';
 import CategoryCommonComponents from '../../CategoryCommonComponents';
 import CategoryPage from '../../CategoryPage';
 import './ListHeadphones.css'
 
-const ListHeadphones = () => {
+const ListHeadphones = ({product}) => {
 
-  const {loading, headphones, error} = useSelector(state => state.headphone)
+  const {loading, products, error} = useSelector(state => state.product)
   const dispatch = useDispatch()
   
   useEffect(async () => {
-    dispatch(fetchHeadphones())
+    dispatch(fetchProducts(product))
   },[]);
 
   return (
     
     <div className=''>
       {!loading && 
-        <CategoryPage products={headphones} product="headphones" />        
+        <CategoryPage products={products} product={product} />
       }
       {!loading && 
         <CategoryCommonComponents />
       }
     </div>
   )
+  
 }
 
 export default ListHeadphones

@@ -1,22 +1,23 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchEarphones } from '../../../redux';
+import { fetchProducts } from '../../../redux';
 import CategoryPage from '../CategoryPage';
 
-const ListEarphone = () => {
-  const {loading, earphones, error} = useSelector(state => state.earphone)
+const ListEarphone = ({product}) => {
+  
+  const { loading, products, error } = useSelector(state => state.product)
   const dispatch = useDispatch()
   
   useEffect(async () => {
-    dispatch(fetchEarphones())
+    dispatch(fetchProducts(product))
   },[]);
 
   return (
     
     <div className=''>
       {!loading && 
-        <CategoryPage products={earphones} product="earphones" />
-      }
+        <CategoryPage products={products} product={product} />
+      }     
     </div>
   )
 }

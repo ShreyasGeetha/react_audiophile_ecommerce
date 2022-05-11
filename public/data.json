@@ -4,9 +4,9 @@
     "slug": "yx1-earphones",
     "name": "YX1 Wireless Earphones",
     "image": {
-      "mobile": "./assets/product-yx1-earphones/mobile/image-product.jpg",
-      "tablet": "./assets/product-yx1-earphones/tablet/image-product.jpg",
-      "desktop": "./assets/product-yx1-earphones/desktop/image-product.jpg"
+      "mobile": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/YX1_Earphone/productImage/image-product__mobile.jpg",
+      "tablet": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/YX1_Earphone/productImage/image-product__tablet.jpg",
+      "desktop": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/YX1_Earphone/productImage/image-product__desktop.jpg"
     },
     "category": "earphones",
     "categoryImage": {
@@ -348,9 +348,9 @@
     "slug": "zx7-speaker",
     "name": "ZX7 Speaker",
     "image": {
-      "mobile": "./assets/product-zx7-speaker/mobile/image-product.jpg",
-      "tablet": "./assets/product-zx7-speaker/tablet/image-product.jpg",
-      "desktop": "./assets/product-zx7-speaker/desktop/image-product.jpg"
+      "mobile": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/ZX7Speaker/productImage/image-product__mobile.jpg",
+      "tablet": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/ZX7Speaker/productImage/image-product__tablet.jpg",
+      "desktop": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/ZX7Speaker/productImage/image-product__desktop.jpg"
     },
     "category": "speakers",
     "categoryImage": {
@@ -436,9 +436,9 @@
     "slug": "zx9-speaker",
     "name": "ZX9 Speaker",
     "image": {
-      "mobile": "./assets/product-zx9-speaker/mobile/image-product.jpg",
-      "tablet": "./assets/product-zx9-speaker/tablet/image-product.jpg",
-      "desktop": "./assets/product-zx9-speaker/desktop/image-product.jpg"
+      "mobile": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/ZX9Speaker/productImage/image-product__mobile.jpg",
+      "tablet": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/ZX9Speaker/productImage/image-product__tablet.jpg",
+      "desktop": "https://audiophille.s3.ap-southeast-1.amazonaws.com/HomePage/ZX9Speaker/productImage/image-product__desktop.jpg"
     },
     "category": "speakers",
     "categoryImage": {

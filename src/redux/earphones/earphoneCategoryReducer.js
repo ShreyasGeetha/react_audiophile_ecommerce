@@ -4,22 +4,22 @@ const categoryInitialState = {
   error: ''
 }
 
-const headphoneCategoryReducer = (state = categoryInitialState, action) => {
+const earphoneCategoryReducer = (state = categoryInitialState, action) => {
   switch (action.type) {
-    case 'FETCH_HEADPHONES_CATEGORY_REQUEST':
+    case 'FETCH_EARPHONE_CATEGORY_REQUEST':
       return {
         ...state,
         loading: true
       }
     
-    case 'FETCH_HEADPHONES_CATEGORY_SUCCESS':
+    case 'FETCH_EARPHONE_CATEGORY_SUCCESS':
       return {
         loading: false,
         category: action.payload,
         error: ''
       }
     
-    case 'FETCH_HEADPHONES_CATEGORY_FAILURE':
+    case 'FETCH_EARPHONE_CATEGORY_FAILURE':
       return {
         loading: false,
         category: [],
@@ -29,4 +29,4 @@ const headphoneCategoryReducer = (state = categoryInitialState, action) => {
   }
 }
 
-export default headphoneCategoryReducer;
+export default earphoneCategoryReducer;

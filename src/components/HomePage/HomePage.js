@@ -2,9 +2,9 @@ import React, { useEffect } from 'react'
 import Hero from './Hero/Hero'
 import './HomePage.css'
 import CompanyMotto from './ProductDisplay/CompanyMotto/CompanyMotto'
-import ProductDisplay from './ProductDisplay/ProductDisplay'
 import SpeakerEarphoneDisplay from './SpeakerEarphoneDisplay/SpeakerEarphoneDisplay'
 import Footer from './Footer/Footer'
+import ProductsDisplay from './ProductDisplay/ProductsDisplay'
 
 
 const HomePage = () => {
@@ -14,7 +14,7 @@ const HomePage = () => {
     <div className='homepage'>
       
       <Hero />
-      <ProductDisplay />
+      <ProductsDisplay />
       <SpeakerEarphoneDisplay />
       <CompanyMotto />
       <Footer />

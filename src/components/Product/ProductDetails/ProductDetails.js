@@ -10,41 +10,41 @@ import PriceTag from '../../PriceTag/PriceTag';
 import Button from '../../Button';
 import ProductCounter from '../ProductCounter/ProductCounter';
 
-const ProductDetails = ({loading, headphones}) => {
+const ProductDetails = ({loading, products}) => {
   return (
     <div className='product__margin'>
         <Breadcrum />
       
       {/* <Header /> */}
       {
-        !loading && headphones.map((headphone) => (
+        !loading && products.map((product) => (
           //flex for mobile, grid for tablet and desktop
-          <div key={headphone.id} className='product__details--description'>
+          <div key={product.id} className='product__details--description'>
             
             {/* image for mobile and desktop*/}            
             <div className='product__details--img'>
-              <Image src={headphone.image.mobile} srcset={ headphone.image.desktop} alt="" />             
+              <Image src={product.image.mobile} srcset={ product.image.desktop} alt="" />             
             </div>
 
             {/* image for tablet */}
             <div className='product__details--img__tablet'>
-              <Image src={headphone.image.tablet} srcset={ headphone.image.tablet} alt="" />             
+              <Image src={product.image.tablet} srcset={ product.image.tablet} alt="" />             
             </div>
 
             {/* product details - new?, name, description, price, add to cart button, product required counter */}
             <div className='product__info'>
               
               {/* is the product new */}
-              <NewProductText isNew={headphone.new} />
+              <NewProductText isNew={product.new} />
               
               {/* name of the product */}
-              <ProductName name={headphone.name} />
+              <ProductName name={product.name} />
               
               {/* description of the product */}
-              <ProductDescription description={headphone.description} textLeft="true" />
+              <ProductDescription description={product.description} textLeft="true" />
 
               {/* price tag of the product */}
-              <PriceTag price={headphone.price} />
+              <PriceTag price={product.price} />
 
               <div className='product__details--count__cart flex__center'>
                 {/* add button to select number of products to be purchased */}

@@ -1,7 +1,7 @@
 import React from 'react'
 import './ProductIncludes.css'
 
-const ProductIncludes = ({loading, headphones}) => {
+const ProductIncludes = ({loading, products}) => {
   return (
     <div className='productIncludes flex__center'>
       <div className='product__heading'>
@@ -9,10 +9,9 @@ const ProductIncludes = ({loading, headphones}) => {
       </div>
       
       {/* all aligned left */}      
-      <div className='productIncludes__items '>
-        {console.log(headphones)}
+      <div className='productIncludes__items '>        
         {
-          headphones.map((headphone) => (
+          products.map((headphone) => (
             headphone.includes.map((include) => (
             <div className='productIncludes__items--item flex__center '>
               <div className='productIncludes__items--item__quantity'>                  
